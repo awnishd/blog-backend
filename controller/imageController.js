@@ -6,9 +6,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 
-const BASE_URL=process.env.BASE_URL;
+const url=process.env.BASE_URL;
 
-const url = `${BASE_URL}`;
+
 
 
 let gfs, gridfsBucket;
